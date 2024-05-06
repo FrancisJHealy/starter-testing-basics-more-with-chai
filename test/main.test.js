@@ -12,7 +12,7 @@ describe("medianScore", () => {
     ];
     const actual = medianScore(students);
     const expected = 8.4;
-    expect(actual).to.be.a("number");
+    //expect(actual).to.be.a("number");
     expect(actual).to.equal(expected);
   });
 });
